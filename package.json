@@ -1,0 +1,30 @@
+{
+  "name": "beryl8-assignment-2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts",
+    "fmt": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/prompt-sync": "^4.2.3",
+    "typescript": "^5.8.3",
+    "prettier": "3.3.3"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "ts-node": "^10.9.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 80,
+    "tabWidth": 2,
+    "semi": false,
+    "arrowParens": "avoid"
+  }
+}
