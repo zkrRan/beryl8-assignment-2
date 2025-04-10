@@ -6,7 +6,9 @@
 .pnp.js
 
 # testing
-/coverage
+# intentionally commit this for easier assignment checking purposes
+# /coverage
+
 
 # database
 /prisma/db.sqlite
